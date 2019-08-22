@@ -29,8 +29,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet"
-        href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
 
     <!-- CSS Styles -->
     <link rel="stylesheet" href="css/main.css">
@@ -50,7 +49,7 @@
                     <div class="project-info d-flex align-items-center">
                         <h1 class="project-name">monblanproject</h1>
                         <!-- /.project-name -->
-                        <span class="project-start">Start on <time>17-02-2016</time></span>
+                        <span class="project-start">Start on <time datetime="2016-02-17">17-02-2016</time></span>
                         <!-- /.project-start -->
                     </div>
                     <!-- /.project-info -->
@@ -65,9 +64,10 @@
                         <div class='input-group date' id='datetimepicker'>
                             <!-- <input type='text' class="form-control" /> -->
                             <span class="date-input">Date</span>
-                            <input data-toggle="datepicker" class="date-in dates" id="date" placeholder="from" name="date" required />
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-                            <input data-toggle="datepicker" class="date-out dates" id="date" placeholder="Дата" name="date" required />
+                            <input data-toggle="datepicker" class="date-in dates" id="date" placeholder="from"
+                                name="date" required />
+                            <input data-toggle="datepicker" class="date-out dates" id="date2" placeholder="to"
+                                name="date" required />
                         </div>
                     </div>
                 </div>
@@ -76,12 +76,12 @@
             <!-- /.col-lg-8 -->
         </div>
         <!-- /.row -->
-        </div>
+
         <!-- /.container -->
     </header>
     <!-- /.header -->
     <main id="main" class="main">
-        <section class="main-content">
+        <div class="main-content">
             <div class="container custom-container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
@@ -103,7 +103,7 @@
                                 </div>
                                 <!-- /.item__overlay-today -->
                                 <div class="item__overlay-date d-flex">
-                                    <time class="item__overlay-title">9-08-2016</time>
+                                    <time datetime="2016-08-09" class="item__overlay-title">9-08-2016</time>
                                     <div class="item__overlay-likes">
                                         <i class="fas fa-heart"></i>
                                         <span>67</span>
@@ -117,7 +117,7 @@
 
                                 </div>
                                 <div class="item__overlay-upload">
-                                    <p>Image upload: <time>9-08-2016</time></p>
+                                    <p>Image upload: <time datetime="2016-04-11">11-04-2016</time></p>
                                 </div>
                             </div>
                             <!-- /.position__overlay -->
@@ -143,7 +143,7 @@
                                 </div>
                                 <!-- /.item__overlay-today -->
                                 <div class="item__overlay-date d-flex">
-                                    <time class="item__overlay-title">9-08-2016</time>
+                                    <time datetime="2016-08-09" class="item__overlay-title">9-08-2016</time>
                                     <div class="item__overlay-likes">
                                         <i class="fas fa-heart"></i>
                                         <span>67</span>
@@ -157,7 +157,7 @@
 
                                 </div>
                                 <div class="item__overlay-upload">
-                                    <p>Image upload: <time>9-08-2016</time></p>
+                                    <p>Image upload: <time datetime="2016-04-11">11-04-2016</time></p>
                                 </div>
                             </div>
                             <!-- /.position__overlay -->
@@ -185,7 +185,7 @@
                                 </div>
                                 <!-- /.item__overlay-today -->
                                 <div class="item__overlay-date d-flex">
-                                    <time class="item__overlay-title">9-08-2016</time>
+                                    <time datetime="2016-08-09" class="item__overlay-title">9-08-2016</time>
                                     <div class="item__overlay-likes">
                                         <i class="fas fa-heart"></i>
                                         <span>67</span>
@@ -199,7 +199,7 @@
 
                                 </div>
                                 <div class="item__overlay-upload">
-                                    <p>Image upload: <time>9-08-2016</time></p>
+                                    <p>Image upload: <time datetime="2016-04-11">11-04-2016</time></p>
                                 </div>
                             </div>
                             <!-- /.position__overlay -->
@@ -226,7 +226,7 @@
                                 </div>
                                 <!-- /.item__overlay-today -->
                                 <div class="item__overlay-date d-flex">
-                                    <time class="item__overlay-title">9-08-2016</time>
+                                    <time datetime="2016-08-09" class="item__overlay-title">9-08-2016</time>
                                     <div class="item__overlay-likes">
                                         <i class="fas fa-heart"></i>
                                         <span>67</span>
@@ -240,7 +240,7 @@
 
                                 </div>
                                 <div class="item__overlay-upload">
-                                    <p>Image upload: <time>9-08-2016</time></p>
+                                    <p>Image upload: <time datetime="2016-04-11">9-08-2016</time></p>
                                 </div>
                             </div>
                             <!-- /.position__overlay -->
@@ -268,7 +268,7 @@
                                 </div>
                                 <!-- /.item__overlay-today -->
                                 <div class="item__overlay-date d-flex">
-                                    <time class="item__overlay-title">9-08-2016</time>
+                                    <time datetime="2016-08-09" class="item__overlay-title">9-08-2016</time>
                                     <div class="item__overlay-likes">
                                         <i class="fas fa-heart"></i>
                                         <span>67</span>
@@ -282,7 +282,7 @@
 
                                 </div>
                                 <div class="item__overlay-upload">
-                                    <p>Image upload: <time>9-08-2016</time></p>
+                                    <p>Image upload: <time datetime="2016-04-11">11-04-2016</time></p>
                                 </div>
                             </div>
                             <!-- /.position__overlay -->
@@ -309,7 +309,7 @@
                                 </div>
                                 <!-- /.item__overlay-today -->
                                 <div class="item__overlay-date d-flex">
-                                    <time class="item__overlay-title">9-08-2016</time>
+                                    <time datetime="2016-08-09" class="item__overlay-title">9-08-2016</time>
                                     <div class="item__overlay-likes">
                                         <i class="fas fa-heart"></i>
                                         <span>67</span>
@@ -323,7 +323,7 @@
 
                                 </div>
                                 <div class="item__overlay-upload">
-                                    <p>Image upload: <time>9-08-2016</time></p>
+                                    <p>Image upload: <time datetime="2016-04-11">11-04-2016</time></p>
                                 </div>
                             </div>
                             <!-- /.position__overlay -->
@@ -350,7 +350,7 @@
                                 </div>
                                 <!-- /.item__overlay-today -->
                                 <div class="item__overlay-date d-flex">
-                                    <time class="item__overlay-title">9-08-2016</time>
+                                    <time datetime="2016-08-09" class="item__overlay-title">9-08-2016</time>
                                     <div class="item__overlay-likes">
                                         <i class="fas fa-heart"></i>
                                         <span>67</span>
@@ -364,7 +364,7 @@
 
                                 </div>
                                 <div class="item__overlay-upload">
-                                    <p>Image upload: <time>9-08-2016</time></p>
+                                    <p>Image upload: <time datetime="2016-04-11">11-04-2016</time></p>
                                 </div>
                             </div>
                             <!-- /.position__overlay -->
@@ -391,7 +391,7 @@
                                 </div>
                                 <!-- /.item__overlay-today -->
                                 <div class="item__overlay-date d-flex">
-                                    <time class="item__overlay-title">9-08-2016</time>
+                                    <time datetime="2016-08-09" class="item__overlay-title">9-08-2016</time>
                                     <div class="item__overlay-likes">
                                         <i class="fas fa-heart"></i>
                                         <span>67</span>
@@ -405,7 +405,7 @@
 
                                 </div>
                                 <div class="item__overlay-upload">
-                                    <p>Image upload: <time>9-08-2016</time></p>
+                                    <p>Image upload: <time datetime="2016-04-11">11-04-2016</time></p>
                                 </div>
                             </div>
                             <!-- /.position__overlay -->
@@ -432,7 +432,7 @@
                                 </div>
                                 <!-- /.item__overlay-today -->
                                 <div class="item__overlay-date d-flex">
-                                    <time class="item__overlay-title">9-08-2016</time>
+                                    <time datetime="2016-08-09" class="item__overlay-title">9-08-2016</time>
                                     <div class="item__overlay-likes">
                                         <i class="fas fa-heart"></i>
                                         <span>67</span>
@@ -446,7 +446,7 @@
 
                                 </div>
                                 <div class="item__overlay-upload">
-                                    <p>Image upload: <time>9-08-2016</time></p>
+                                    <p>Image upload: <time datetime="2016-04-11">11-04-2016</time></p>
                                 </div>
                             </div>
                             <!-- /.position__overlay -->
@@ -461,23 +461,23 @@
                 <!-- /.row -->
             </div>
             <!-- /.container -->
-        </section>
+        </div>
         <!-- /.main-content -->
     </main>
     <!-- /.main -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script>
+        $(function () {
+            $('.date .dates').datepicker({
+                'format': 'yyyy-mm-dd',
+                'autoclose': true
+            });
+        });
+    </script>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap-datepicker.js"></script>
-<!-- <script src="http://cdn.craig.is/js/rainbow-custom.min.js"></script> -->
 
-<script>
-    $(function(){
-        $('.date #date').datepicker({
-            'format':'yyyy-mm-dd',
-            'autoclose' : true
-        });
-    });
-</script>
 
 </html>
