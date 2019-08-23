@@ -117,6 +117,16 @@ h1, h2.h3, h3, h4, h5, h6, p {
       font-family: 'Tahoma';
       font-size: 17px;
       margin-right: 10px; }
+    .header .form-group .input-group .input-field i {
+      position: absolute; }
+    .header .form-group .input-group .fa-times {
+      margin-right: 10px; }
+    .header .form-group .input-group .icon_1 {
+      position: relative;
+      right: 65px;
+      top: 3px;
+      font-size: 25px;
+      font-weight: 100; }
     .header .form-group .input-group input {
       padding: 5px;
       border-radius: 5px;
@@ -145,11 +155,6 @@ h1, h2.h3, h3, h4, h5, h6, p {
 .main {
   margin: 70px 0; }
 
-.video-icon {
-  position: absolute;
-  top: 10px;
-  right: 10px; }
-
 .item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,6 +162,11 @@ h1, h2.h3, h3, h4, h5, h6, p {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px; }
+  .item .video-icon {
+    max-width: 38px;
+    position: absolute;
+    top: 10px;
+    right: 10px; }
   .item img {
     max-width: 100%;
     width: 100%; }
@@ -186,14 +196,13 @@ h1, h2.h3, h3, h4, h5, h6, p {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
+    padding-left: 25px; }
     .item .item__overlay-title {
       width: 105px; }
     .item .item__overlay-likes, .item .item__overlay-comments {
       width: 85px; }
     .item .item__overlay-upload {
+      padding-right: 25px;
       padding-top: 65px;
       padding-bottom: 12px;
       text-align: center; }
