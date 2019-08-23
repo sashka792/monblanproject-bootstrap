@@ -124,6 +124,7 @@ h1, h2.h3, h3, h4, h5, h6, p {
     .header .form-group .input-group .icon_1 {
       position: relative;
       right: 65px;
+      left: -65px;
       top: 3px;
       font-size: 25px;
       font-weight: 100; }
@@ -133,9 +134,13 @@ h1, h2.h3, h3, h4, h5, h6, p {
       border: 1px solid #ccc; }
     .header .form-group .input-group .date-in {
       margin-right: 24px; }
-    @media screen and (max-width: 475px) {
+    @media screen and (max-width: 576px) {
       .header .form-group .input-group .date-out {
-        margin-left: 21px;
+        margin-left: 60px;
+        margin-top: 10px; } }
+    @media screen and (max-width: 320px) {
+      .header .form-group .input-group .date-out {
+        margin-left: 0px;
         margin-top: 10px; } }
   @media screen and (max-width: 768px) {
     .header .form-group {
@@ -196,7 +201,10 @@ h1, h2.h3, h3, h4, h5, h6, p {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding-left: 25px; }
+    padding-left: 25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
     .item .item__overlay-title {
       width: 105px; }
     .item .item__overlay-likes, .item .item__overlay-comments {
